@@ -1,0 +1,63 @@
+QWidget#Widget {
+background-color:rgb(50, 50, 50);
+}
+
+QLabel#lb_main {
+font: 20pt "微软雅黑";
+color: rgb(128, 128, 128);
+qproperty-alignment: AlignCenter;
+}
+
+QLabel#lb_output {
+font: 12pt "微软雅黑";
+color: rgb(200, 200, 200);
+qproperty-alignment: AlignCenter;
+}
+
+QPushButton#btn1_recognize, #btn2_clear{
+border-radius:8px;
+}
+
+QPushButton:hover#btn1_recognize{
+border-radius:8px;
+background-color: rgb(75, 100, 125);
+}
+
+QPushButton:pressed#btn1_recognize{
+border-radius:8px;
+background-color:rgb(100, 125, 150);
+}
+
+QPushButton:hover#btn2_clear{
+border-radius:8px;
+background-color: rgb(100, 100, 100);
+}
+
+QPushButton:pressed#btn2_clear{
+border-radius:8px;
+background-color:rgb(125, 125, 125);
+}
+
+QPushButton#btn1_recognize{
+border-image:url(:/icon/recognize1.png) 10 10 10 10;
+}
+
+QPushButton:hover#btn1_recognize{
+border-image:url(:/icon/recognize2.png) 10 10 10 10;
+}
+
+QPushButton:pressed#btn1_recognize{
+border-image:url(:/icon/recognize3.png) 10 10 10 10;
+}
+
+QPushButton#btn2_clear{
+border-image:url(:/icon/clear1.png);
+}
+
+QPushButton:hover#btn2_clear{
+border-image:url(:/icon/clear2.png);
+}
+
+QPushButton:pressed#btn2_clear{
+border-image:url(:/icon/clear3.png);
+}

@@ -1,0 +1,11 @@
+<RCC>
+    <qresource prefix="/">
+        <file>icon/recognize1.png</file>
+        <file>icon/recognize2.png</file>
+        <file>icon/recognize3.png</file>
+        <file>icon/clear1.png</file>
+        <file>icon/clear2.png</file>
+        <file>icon/clear3.png</file>
+        <file>qss/LPR.qss</file>
+    </qresource>
+</RCC>
